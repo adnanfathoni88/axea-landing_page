@@ -46,6 +46,19 @@
             justify-content: center;
             background: linear-gradient(var(--bg-custom-navy-light), var(--bg-custom-navy-dark));
         }
+
+        #hero h1 {
+            font-size: clamp(2rem, 5vw, 3.75rem) !important;
+        }
+
+        h5,
+        #hero h4 {
+            font-size: clamp(1rem, 3vw, 1.5rem);
+        }
+
+        #hero span {
+            font-size: clamp(1.2rem, 3vw, 0.3rem) !important;
+        }
     </style>
 </head>
 
@@ -67,16 +80,16 @@
     </nav> -->
 
     <!-- Hero Section -->
-    <section class="hero text-center text-white">
+    <section id="hero" class="hero text-center text-white">
         <div class="container d-flex flex-column align-items-center gap-5">
             <div>
                 <h5>Program AEXA (Asset Exponentia Academy)</h5>
                 <h1 style="font-size: 60px;">Referral Jadi Mudah & Berlipat..</h1>
             </div>
 
-            <div class="d-flex flex-column gap-2">
-                <div class="card text-bg-warning rounded-4 border-0" style="min-width: 500px;">
-                    <div class="card-body d-flex justify-content-center px-4 py-2 gap-2">
+            <div class="d-flex flex-column align-items-center gap-2 w-100">
+                <div class="card text-bg-warning rounded-4 border-0 w-100" style="max-width: 500px;">
+                    <div class="card-body d-flex flex-wrap justify-content-center px-4 py-2 gap-2">
                         <span class="fw-bold text-danger">X</span>
                         <span class="fw-bold">BUKAN</span>
                         <p class="card-text">
@@ -85,11 +98,11 @@
                     </div>
                 </div>
 
-                <div class="card text-bg-warning rounded-4 border-0" style="min-width: 500px;">
-                    <div class="card-body d-flex justify-content-center px-4 py-2 gap-2">
+                <div class="card text-bg-warning rounded-4 border-0 w-100" style="max-width: 500px;">
+                    <div class="card-body d-flex flex-wrap justify-content-center px-3 py-2 gap-2">
                         <span class="fw-bold text-danger">X</span>
                         <span class="fw-bold">BUKAN</span>
-                        <p class="card-text">
+                        <p class="card-text text-center m-0">
                             sekedar belajar Digital Marketing & Referral
                         </p>
                     </div>
@@ -138,22 +151,18 @@
             <div class="d-flex flex-column align-items-center">
                 <div class="d-flex flex-column w-75 gap-5">
                     <div>
-                        <span class="line-height-1 fs-5">
+                        <span class="line-height-1">
                             Platform edukasi bisnis <span class="fw-bold">REFERRAL</span> yang bekerjasama dengan
-                            perusahaan
-                            internasional
+                            perusahaan internasional
                             <img class="px-2" src="./assets/images/logo/logo-volten.png" alt="Logo Volten"
                                 style="height: 20px; vertical-align: middle;">
                             untuk bantu Anda mulai belajar & menjalankan bisnis Referral yang bisa dikembangkan di
-                            <span class="fw-bold">wilayah ASEAN (Indonesia, Malaysia,
-                                Cambodia,
-                                Thailand, Laos,
-                                Singapura, Brunei, Vietnam) & India</span>
+                            <span class="fw-bold">wilayah ASEAN (Indonesia, Malaysia, Cambodia, Thailand, Laos,
+                                Singapura,
+                                Brunei, Vietnam) & India</span>
                             , baik melalui metode offline maupun online (Digital Marketing) dari
-                            <span class="fw-bold">
-                                NOL (PEMULA),
-                            </span>
-                            sampai bisa , bisa dilakukan dimana aja dan kapan aja tanpa mengganggu pekerjaan/profesi
+                            <span class="fw-bold">NOL (PEMULA),</span>
+                            sampai bisa, bisa dilakukan dimana aja dan kapan aja tanpa mengganggu pekerjaan/profesi
                             utama,
                             <span class="fw-bold">
                                 tanpa mikirin dan ngelakuin packing – kirim produk – ongkir
@@ -191,36 +200,34 @@
                         <hr>
                         <span class="opacity-50 line-height-1 fs-5">
                             Bisa dapat penghasilan sejak minggu pertama, dihitung jika website Anda sudah running iklan
-                            dan Anda aktifkan akun
-                            Volten International. Website referral kami sediakan. Cara nge-ads kami ajarkan atau bisa
-                            juga
-                            titip ke kami yang
-                            jalankan ads website Anda (solusi buat yang masih sibuk di profesi/pekerjaan utama).
+                            dan Anda aktifkan akun Volten International. Website referral kami sediakan. Cara nge-ads
+                            kami
+                            ajarkan atau bisa
+                            juga titip ke kami yang jalankan ads website Anda (solusi buat yang masih sibuk di
+                            profesi/pekerjaan utama).
                         </span>
                     </div>
                     <div>
-                        <div class="row">
-                            <div class="col-6">
+                        <div class="row g-3">
+                            <div class="col-12 col-md-6">
                                 <img src="assets/images/kegiatan/kegiatan-1.jpg" alt="Kegiatan 1"
                                     class="img-fluid rounded-3">
                             </div>
-                            <div class="col-6">
-                                <img src="assets/images/kegiatan/kegiatan-2.jpg" alt="Kegiatan 1"
+                            <div class="col-12 col-md-6">
+                                <img src="assets/images/kegiatan/kegiatan-2.jpg" alt="Kegiatan 2"
                                     class="img-fluid rounded-3">
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </section>
 
     <!-- section 3 -->
     <section class="bg-custom-navy-dark text-white">
         <div class="container d-flex flex-column align-items-center " style=" padding: 100px 0px;">
-            <div class="w-75 text-center d-flex flex-column align-items-center gap-3">
+            <div class="w-100 w-md-75 px-4 text-center d-flex flex-column align-items-center gap-3">
                 <span>
                     Yang bikin BENERAN DAPAT INCOME itu :
                 </span>
@@ -264,12 +271,12 @@
                 </h5>
             </div>
             <div class="w-75 py-4">
-                <div class="row">
-                    <div class="col-6 d-flex justify-content-end">
+                <div class="row g-4">
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center justify-content-md-end">
                         <img src=" assets/images/kegiatan/kegiatan-3.jpg" alt="Kegiatan 1"
                             class="img-fluid rounded-3 w-75">
                     </div>
-                    <div class="col-6 d-flex justify-content-start">
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center justify-content-md-start">
                         <img src=" assets/images/kegiatan/kegiatan-4.jpg" alt="Kegiatan 1"
                             class="img-fluid rounded-3 w-75">
                     </div>
@@ -316,12 +323,12 @@
                 <span>Contohnya seperti ini :</span>
                 <div class="py-4">
                     <h4 class="fw-bold">Bimbingan KELAS OFFLINE (1 bulan sekali)</h4>
-                    <div class="row pt-2">
-                        <div class="col-6 d-flex align-items-stretch">
+                    <div class="row g-4 pt-2">
+                        <div class="col-md-6 col-sm-12 d-flex align-items-stretch">
                             <img src="assets/images/kegiatan/kegiatan-5.jpg" alt="Kegiatan 5"
                                 class="img-fluid rounded-3 w-100">
                         </div>
-                        <div class="col-6 d-flex align-items-stretch">
+                        <div class="col-md-6 col-sm-12 d-flex align-items-stretch">
                             <img src="assets/images/kegiatan/kegiatan-6.jpg" alt="Kegiatan 6"
                                 class="img-fluid rounded-3 w-100">
                         </div>
@@ -330,19 +337,19 @@
                 <div class="py-4">
                     <h4 class="fw-bold">Bimbingan KELAS ONLINE RUTIN (1 minggu sekali)</h4>
                     <div class="row pt-2 g-4">
-                        <div class="col-6 d-flex align-items-stretch">
+                        <div class="col-md-6 col-sm-12 d-flex align-items-stretch">
                             <img src="assets/images/kegiatan/kegiatan-7.png" alt="Kegiatan 7"
                                 class="img-fluid rounded-3 w-100">
                         </div>
-                        <div class="col-6 d-flex align-items-stretch">
+                        <div class="col-md-6 col-sm-12 d-flex align-items-stretch">
                             <img src="assets/images/kegiatan/kegiatan-8.png" alt="Kegiatan 8"
                                 class="img-fluid rounded-3 w-100">
                         </div>
-                        <div class="col-6 d-flex align-items-stretch">
+                        <div class="col-md-6 col-sm-12 d-flex align-items-stretch">
                             <img src="assets/images/kegiatan/kegiatan-9.jpg" alt="Kegiatan 9"
                                 class="img-fluid rounded-3 w-100">
                         </div>
-                        <div class="col-6 d-flex align-items-stretch">
+                        <div class="col-md-6 col-sm-12 d-flex align-items-stretch">
                             <img src="assets/images/kegiatan/kegiatan-10.jpg" alt="Kegiatan 10"
                                 class="img-fluid rounded-3 w-100">
                         </div>
@@ -354,19 +361,19 @@
                             dibatasin)</span>
                     </h4>
                     <div class="row pt-2 g-4">
-                        <div class="col-3 d-flex align-items-stretch">
+                        <div class="col-md-3 col-6 d-flex align-items-stretch">
                             <img src="assets/images/kegiatan/kegiatan-11.jpg" alt="Kegiatan 11"
                                 class="img-fluid rounded-3 w-100 border-1 border-black">
                         </div>
-                        <div class="col-3 d-flex align-items-stretch">
+                        <div class="col-md-3 col-6 d-flex align-items-stretch">
                             <img src="assets/images/kegiatan/kegiatan-12.jpg" alt="Kegiatan 12"
                                 class="img-fluid rounded-3 w-100 border-1 border-black">
                         </div>
-                        <div class="col-3 d-flex align-items-stretch">
+                        <div class="col-md-3 col-6 d-flex align-items-stretch">
                             <img src="assets/images/kegiatan/kegiatan-13.jpg" alt="Kegiatan 13"
                                 class="img-fluid rounded-3 w-100 border-1 border-black">
                         </div>
-                        <div class="col-3 d-flex align-items-stretch">
+                        <div class="col-md-3 col-6 d-flex align-items-stretch">
                             <img src="assets/images/kegiatan/kegiatan-14.jpg" alt="Kegiatan 14"
                                 class="img-fluid rounded-3 w-100 border-1 border-black">
                         </div>
@@ -425,8 +432,8 @@
     </section>
 
     <!-- section 6 -->
-    <section>
-        <div class="container w-75 d-flex flex-column align-items-center text-center gap-4"
+    <section class="px-4">
+        <div class="container w-100 d-flex flex-column align-items-center text-center gap-4"
             style=" padding: 100px 0px;">
             <h2 class="fw-bold">INI CARA ANDA BELAJAR SAMPAI DAPAT PENGHASILAN NYATA</h2>
 
@@ -504,11 +511,10 @@
             </div>
     </section>
 
-
     <!-- section 7 -->
-    <section class="bg-custom-navy-dark text-white">
-        <div class="container w-75 d-flex justify-content-center align-items-center gap-5 text-center"
-            style=" padding: 100px 0px;">
+    <section class="bg-custom-navy-dark text-white px-4">
+        <div class="container d-flex flex-column flex-md-row justify-content-center align-items-center gap-5 text-center"
+            style="padding: 100px 0px;">
             <img src="assets/images/produk/produk-1.webp" alt="produk-1" style="width: 350px;">
             <div class="d-flex flex-column gap-3 text-start">
                 <div>
@@ -535,20 +541,20 @@
         <div class="container w-75 d-flex justify-content-center align-items-center gap-5 text-center"
             style=" padding: 100px 0px;">
             <div class="row d-flex align-items-end g-5">
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <img src="assets/images/produk/produk-3.png" class="img-fluid" alt="produk-3"
                         style="height: 200px; object-fit: cover;">
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <img src="assets/images/produk/produk-2.png" class="img-fluid" alt="produk-2"
                         style="height: 200px; object-fit: cover;">
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
 
                     <img src="assets/images/produk/produk-5.png" class="img-fluid" alt="produk-5"
                         style="height: 200px; object-fit: cover;">
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <img src="assets/images/produk/produk-4.png" class="img-fluid" alt="produk-4"
                         style="height: 150px; object-fit: cover;">
                 </div>
@@ -557,14 +563,14 @@
     </section>
 
     <!-- section 9 -->
-    <section class="bg-custom-navy-dark">
-        <div class="container w-75 d-flex flex-column gap-4" style=" padding: 100px 0px;">
-            <div class="d-flex justify-content-center align-items-center gap-5 text-center">
+    <section class="bg-custom-navy-dark px-4">
+        <div class="container d-flex flex-column gap-4" style=" padding: 100px 0px;">
+            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-5 text-center">
                 <h4 class="text-white">Bio Teknologi Super Ekstrasi, 100% teknologi milik VOLTEN INTERNATIONAL</h4>
                 <img src="assets/images/kegiatan/kegiatan-15.jpg" alt="kegiatan-15" class="rounded-3 img-fluid"
                     style="height: 350px;">
             </div>
-            <div class="d-flex justify-content-center align-items-center gap-5 text-center">
+            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-5 text-center">
                 <img src="assets/images/kegiatan/kegiatan-16.jpg" alt="kegiatan-16" class="rounded-3 img-fluid"
                     style="height: 350px;">
                 <span class="text-white text-start lh-xl ">
@@ -593,13 +599,13 @@
 
     <!-- section 10 -->
     <section>
-        <div class="container w-75 d-flex flex-column align-items-center text-center gap-4"
+        <div class="container px-4 d-flex flex-column align-items-center text-center gap-4"
             style=" padding: 100px 0px;">
             <div>
                 <h2 class="fw-bold">DIDUKUNG <span class="text-warning">JURNAL SAINTIFIK</span> </h2>
                 <h5 class="fw-bold">SCOPUS MEDICAL JOURNAL <span class="text-warning">YANG DIAKUI DUNIA</span></h5>
             </div>
-            <div class="d-flex justify-content-center" style="gap: 16px;">
+            <div class="d-flex flex-column flex-lg-row justify-content-center" style="gap: 16px;">
                 <img src="./assets/images/kegiatan/kegiatan-17.jpg" alt="kegiatan-17" class="img-fluid"
                     style="height: 400px;">
                 <img src="./assets/images/kegiatan/kegiatan-18.jpg" alt="kegiatan-18" class="img-fluid"
@@ -610,8 +616,9 @@
     </section>
 
     <!-- section 11 -->
-    <section class="bg-custom-navy-dark text-white">
-        <div class="container d-flex justify-content-center text-start gap-5" style=" padding: 100px 0px;">
+    <section class="bg-custom-navy-dark text-white px-4">
+        <div class="container d-flex flex-column flex-md-row justify-content-center align-items-center text-start gap-5"
+            style=" padding: 100px 0px;">
             <div>
                 <img src="./assets/images/produk/produk-6.webp" alt="produk-6" class="img-fluid" style="width: 250px;">
             </div>
@@ -653,32 +660,32 @@
     <!-- section 13 -->
     <section>
         <div class="container w-75 text-start gap-5" style=" padding: 100px 0px;">
-            <div class="row g-4">
-                <div class="col-4">
+            <div class="row g-4 justify-content-center">
+                <div class="col-6 col-lg-4">
                     <img src="assets/images/dokumen/doc-1.jpg" alt="doc-1" class="img-fluid">
                 </div>
-                <div class="col-4">
+                <div class="col-6 col-lg-4">
                     <img src="assets/images/dokumen/doc-2.jpg" alt="doc-2" class="img-fluid">
                 </div>
-                <div class="col-4">
+                <div class="col-6 col-lg-4">
                     <img src="assets/images/dokumen/doc-3.jpg" alt="doc-3" class="img-fluid">
                 </div>
-                <div class="col-4">
+                <div class="col-6 col-lg-4">
                     <img src="assets/images/dokumen/doc-4.jpg" alt="doc-4" class="img-fluid">
                 </div>
-                <div class="col-4">
+                <div class="col-6 col-lg-4">
                     <img src="assets/images/dokumen/doc-5.jpg" alt="doc-5" class="img-fluid">
                 </div>
-                <div class="col-4">
+                <div class="col-6 col-lg-4">
                     <img src="assets/images/dokumen/doc-6.jpg" alt="doc-6" class="img-fluid">
                 </div>
-                <div class="col-4">
+                <div class="col-6 col-lg-4">
                     <img src="assets/images/dokumen/doc-7.jpg" alt="doc-7" class="img-fluid">
                 </div>
-                <div class="col-4">
+                <div class="col-6 col-lg-4">
                     <img src="assets/images/dokumen/doc-8.jpg" alt="doc-8" class="img-fluid">
                 </div>
-                <div class="col-4">
+                <div class="col-6 col-lg-4">
                     <img src="assets/images/dokumen/doc-9.jpg" alt="doc-9" class="img-fluid">
                 </div>
             </div>
@@ -705,7 +712,7 @@
             <h2>CERITA & PENGALAMAN MEREKA <b>BELAJAR DI MAHIR DIGITAL #REALTESTIMONI</b></h2>
 
             <div class="row justify-content-center g-3">
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="h-100 card d-flex flex-column justify-content-between  gap-4"
                         style="padding: 32px 16px;">
                         <span>Sebagai karyawan sekaligus
@@ -730,7 +737,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="h-100 card d-flex flex-column justify-content-between  gap-4"
                         style="padding: 32px 16px;">
                         <span>
@@ -753,7 +760,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="h-100 card d-flex flex-column justify-content-between  gap-4"
                         style="padding: 32px 16px;">
                         <span>
@@ -780,7 +787,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="h-100 card d-flex flex-column justify-content-between  gap-4"
                         style="padding: 32px 16px;">
                         <span>
@@ -804,7 +811,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="h-100 card d-flex flex-column justify-content-between  gap-4"
                         style="padding: 32px 16px;">
                         <span>
@@ -852,7 +859,7 @@
                 </h4>
             </div>
 
-            <div class="d-flex flex-column gap-2 w-75">
+            <div class="d-flex flex-column gap-2">
                 <div class="card p-4">
                     ✅ Waktu 22 tahun + keliling berbagai provinsi bahkan pulau (karena masih 100% offline saat itu) +
                     capek + kegagalan +
@@ -882,12 +889,12 @@
 
     <!-- section 16  -->
     <section>
-        <div class=" container w-75 text-center gap-4" style=" padding: 100px 0px;">
+        <div class=" container px-4 text-center gap-4" style=" padding: 100px 0px;">
             <h3 class="fw-bold">INVESTASI GA CUMAN LEHER KE ATAS</h3>
             <h5>TAPI INVESTASI UNTUK BANGUN ASSET YANG MENDATANGKAN INCOME JANGKA PANJANG</h5>
 
-            <div class="row py-4">
-                <div class="col-4">
+            <div class="row g-4 py-4">
+                <div class="col-12 col-lg-4">
                     <div class="card h-100 d-flex flex-column justify-content-between gap-4 p-3">
                         <div class="card py-2 text-bg-warning border-0">
                             <b>INVESTASI LAMA</b>
@@ -896,13 +903,13 @@
                             <h1 class="fw-bold"> <s>6.875<br>JUTA</s></h1>
                             <h5><s>1x Bayar</s></h4>
                         </div>
-                        <button class="W-100 btn btn-warning">
+                        <button class="W-100 btn btn-light border-warning">
                             <b><s>SOLD</s></b>
                         </button>
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="card h-100 d-flex flex-column justify-content-between gap-4 p-3">
                         <div class="card py-2 text-bg-warning border-0">
                             <b>INVESTASI BARU</b>
@@ -911,13 +918,13 @@
                             <h1 class="fw-bold"> 2,940<br>JUTA</h1>
                             <h5>1x Bayar</h5>
                         </div>
-                        <button class="W-100 btn btn-warning">
+                        <button class="W-100 btn btn-light border-warning">
                             <b>NOW</b>
                         </button>
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="card h-100 d-flex flex-column justify-content-between gap-4 p-3">
                         <div class="card py-2 text-bg-warning border-0">
                             <b>INVESTASI ADVANCE</b>
@@ -931,7 +938,7 @@
                                     dari bisnis referral AEXA)
                                 </i></span>
                         </div>
-                        <button class="W-100 btn btn-warning">
+                        <button class="W-100 btn btn-light border-warning">
                             <b>NOW</b>
                         </button>
                     </div>
@@ -942,7 +949,7 @@
 
     <!-- section 17 -->
     <section>
-        <div class="container w-75 d-flex flex-column align-items-center text-center gap-4"
+        <div class="container px-4 d-flex flex-column align-items-center text-center gap-4"
             style=" padding: 100px 0px;">
             <div>
                 <h2 class="fw-bold">REAL VALUE & BENEFIT</h2>
@@ -1020,7 +1027,7 @@
 
     <!-- section 18 -->
     <section class="bg-custom-navy-dark text-white">
-        <div class="container w-75 d-flex flex-column align-items-center text-center gap-5"
+        <div class="container px-4 d-flex flex-column align-items-center text-center gap-5"
             style=" padding: 100px 0px;">
             <h3 class="fw-bold">4 KEUNTUNGAN BISNIS REFERRAL BERSAMA <span class="text-warning">AEXA & VOLTEN
                     INTERNATIONAL</span></h3>
@@ -1109,10 +1116,10 @@
 
     <!-- section 19 -->
     <section>
-        <div class="container w-75 d-flex flex-column align-items-center text-center gap-4"
+        <div class="container px-4 d-flex flex-column align-items-center text-center gap-4"
             style=" padding: 100px 0px;">
             <h2 class="fw-bold">GREETINGS <span class="text-warning">FROM OUR FOUNDER</span></h2>
-            <div class="w-75 d-flex flex-column gap-3">
+            <div class="px-4 d-flex flex-column gap-3">
                 <div class="card bg-custom-yellow-light border-1 border-warning p-4">
                     <div class="d-flex align-items-center gap-4">
                         <img src="/assets/images/person/person-1.jpg" alt="person-1" class="img-fluid rounded-3"
@@ -1212,7 +1219,7 @@
 
     <!-- section 20 -->
     <section class="bg-custom-green-light">
-        <div class="container w-75 d-flex flex-column align-items-center text-center gap-4"
+        <div class="container px-4 d-flex flex-column align-items-center text-center gap-4"
             style=" padding: 100px 0px;">
             <div>
                 <h2 class="fw-bold">
@@ -1220,7 +1227,7 @@
                 </h2>
                 <h5 class="fw-normal">Earning yang bisa didapat, <u>alhamdulillah</u></h5>
             </div>
-            <div class="w-75">
+            <div class="px-4">
                 <!-- import keiatan 20 -->
                 <div class="d-flex flex-column gap-5">
                     <img src="assets/images/kegiatan/kegiatan-21.jpg" alt="kegiatan-21" class="img-fluid"
@@ -1234,13 +1241,12 @@
 
                 </div>
             </div>
-
         </div>
     </section>
 
     <!-- section 21 -->
     <section class="bg-custom-blue-light">
-        <div class="container w-75 d-flex flex-column align-items-center text-center gap-4"
+        <div class="container px-4 d-flex flex-column align-items-center text-center gap-4"
             style=" padding: 100px 0px;">
             <div>
                 <h2 class="fw-bold">Goal Pembelajaran</h2>
@@ -1263,7 +1269,7 @@
 
     <!-- section 22 -->
     <section class="bg-custom-green-light">
-        <div class="container w-75 d-flex flex-column align-items-center text-center gap-4"
+        <div class="container px-4 d-flex flex-column align-items-center text-center gap-4"
             style=" padding: 100px 0px;">
             <div>
                 <h2 class="fw-bold">Materi Belajar</h2>
@@ -1287,9 +1293,9 @@
 
     <!-- section 23 -->
     <section>
-        <div class="container w-75 d-flex flex-column align-items-center text-center gap-4"
+        <div class="container px-4 d-flex flex-column align-items-center text-center gap-4"
             style=" padding: 100px 0px;">
-            <div class="w-75">
+            <div class="px-4">
                 <div class="card bg-custom-yellow-light border-1 border-warning p-4">
                     <h5 class="fw-bold">Biaya Program AEXA</h5>
                     <h2 class="text-custom-orange-light"><s>Rp. 6.875.000</s></h2>
@@ -1316,7 +1322,6 @@
                             <li>Detail Steps, Diajarkan step by step, yang bisa Anda ulang dan juga bisa Anda tanyakan
                                 di grup/forum
                             </li>
-
                         </ol>
                     </div>
                 </div>
